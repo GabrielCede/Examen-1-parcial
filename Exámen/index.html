@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Exámen</title>
+</head>
+<body>
+
+    <form action="#">
+        <div>
+            <label for="codigo">Código</label>
+            <input type="text" id="codigo" maxlength="5" required>
+        </div>
+                <br>
+        <div>
+            <label for="titulo">Título</label>
+            <input type="text" id="titulo" maxlength="100" required>
+        </div>
+        <br>
+        <div>
+            <label for="autor">Autor</label>
+            <input type="text" id="autor" maxlength="60" required>
+
+        </div>
+        <br>
+            
+        <div>
+            <label for="editorial">Editorial</label>
+            <input type="text" id="editorial" maxlength="30" required>
+
+        </div>
+        <br>
+        <div>
+            <label for="fecha_p">Fecha de Publicación</label>
+            <input type="date" id="fecha-p" required>
+
+        </div>
+        <br>
+        <div>
+            <label for="fecha_i">Fecha de Ingreso</label>
+            <input type="date" id="fecha-i" required>
+
+            
+
+        </div>
+        <br>
+        <input type="submit" onclick="return enviarFormulario()" value="Enviar">
+        
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
